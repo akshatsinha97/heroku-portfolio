@@ -1,1 +1,1 @@
-web: waitress-serve --listen=127.0.0.1:$PORT portfolio.wsgi:application
+worker: waitress-serve --listen=0.0.0.0:$PORT portfolio.wsgi:application
