@@ -1,4 +1,3 @@
-from tkinter import N
 from django.shortcuts import render
 from home.models import Contact
 
